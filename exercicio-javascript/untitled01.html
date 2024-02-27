@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular letra maior</h1>
+        <h2>Veja qual letra é maior </h2>
+        <form id="form-calcular">
+
+            <input type="number" id="numero-a" required placeholder="Número A" />
+            <input type="number" id="numero-b" required placeholder="Número B" />
+            <button id="btn-calcular" onclick="calcular()" type="submit">calcular</button>
+            
+        </form>
+        <p class="message" ></p>
+    </div>
+    <script src="./untitled01.js">
+        const form = window.document.getElementById('form-calcular')
+        const message = winddow.document.querySelector('.message')
+        const a = window.document.querySelector('#numero-a')
+        const b = window.document.querySelector('#numero-b')
+        const messageA = `O numero "A" (${a}) é maior que o numero "B" (${b})`
+        const messageB = `O numero "B" (${b}) é maior que o numero "A" (${a})`
+        const messageIgual = `O numero é igual`
+
+        function (calcular()){
+            
+        }
+
+    </script>
